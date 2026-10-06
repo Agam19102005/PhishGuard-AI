@@ -39,7 +39,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/predict",
+        "https://phishguard-ai-z601.onrender.com/predict",
         {
           url: formattedUrl,
         }
